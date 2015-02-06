@@ -23,7 +23,7 @@
 	scrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height + 50);
 	[self.view addSubview:scrollView];
 	
-//	UILabel *myLabel = [UILabel alloc]initWithFrame:<#(CGRect)#>
+	
 	
 	
 	// Do any additional setup after loading the view.

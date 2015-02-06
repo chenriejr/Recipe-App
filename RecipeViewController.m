@@ -39,6 +39,7 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 	DetailViewController *detailViewController = [DetailViewController new];
+	NSLog(@"%@", indexPath);
 	detailViewController.recipeIndex = indexPath.row;
 	[self.navigationController pushViewController:detailViewController animated:YES];
 }
